@@ -5,7 +5,7 @@ using namespace std;
 
 int main()
 {
-    char string[] = "hello world";
+    char string[] = "hello world\0";
     int length = strlen(string);
     int temp, i, j;
 
